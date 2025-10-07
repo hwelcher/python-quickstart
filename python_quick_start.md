@@ -111,6 +111,8 @@ print("Next year, you will be " + str(next_year_age) + " years old.")
 ```
 Here, we converted the age back to a string with `str()` to concatenate it with the other strings for printing.
 
+> You can find all the code for this section in the file: `python_tutorial_examples/01_basics.py`
+
 ## Part 2: Control Flow (20 minutes)
 
 **Control flow** refers to the order in which the statements in your program are executed. You can control this flow using conditional statements and loops.
@@ -170,6 +172,8 @@ for letter in "Python":
     print(letter)
 ```
 
+> You can find all the code for this section in the file: `python_tutorial_examples/02_control_flow.py`
+
 ### Mini-Project: Number Guessing Game
 
 Let's combine what we've learned to create a simple number guessing game.
@@ -195,6 +199,8 @@ while guess != secret_number:
         print("You got it! The number was " + str(secret_number))
 ```
 This game uses a `while` loop to keep asking for guesses until the user gets it right. It also uses `if/elif/else` to provide hints.
+
+> You can find the code for this game in the file: `python_tutorial_examples/03_number_guessing_game.py`
 
 ## Part 3: Data Structures (10 minutes)
 
@@ -247,6 +253,8 @@ print(student["age"])  # Output: 16
 ```
 We won't go deep into dictionaries in this tutorial, but it's good to know they exist!
 
+> You can find all the code for this section in the file: `python_tutorial_examples/04_data_structures.py`
+
 ## Part 4: Functions (10 minutes)
 
 Functions are reusable blocks of code that perform a specific task. Using functions helps keep your code organized and avoids repetition.
@@ -291,6 +299,8 @@ rect_area = calculate_area(10, 5)
 print("The area is " + str(rect_area)) # Output: The area is 50
 ```
 Using functions to perform calculations and return results is a very common practice in programming.
+
+> You can find all the code for this section in the file: `python_tutorial_examples/05_functions.py`
 
 ## Wrap-up and Next Steps (5 minutes)
 
